@@ -1,0 +1,124 @@
+body{
+    height: 100vh;
+    color: black;
+    background-color: red;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    margin: 5vh 20vh ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task{
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.newlist{
+    
+    font-weight: normal;
+}
+.p1,.p2{
+    font-size: 20px;
+}
+.p2{
+    font-size: 50px;
+}
+.item{
+    margin: 50px;
+}
+.item,#addplus,.trash,.main,.tick,.page2AddBtn:hover{
+    cursor: pointer;
+}
+#add{
+    color: black;
+    font-size: 50px;
+}
+.list{
+    display: none;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    left: 40vw;
+    bottom: 34.4vh;
+    width: 15vw;
+    height: 20vh;
+    color: red;
+    font-size: 25px;
+    border: 1px solid rgb(249, 140, 140);
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px; 
+}
+input{
+    text-align: center;
+}
+.b1,.b2{
+    width: 5vw;
+    height: 5vh;
+    padding:10px 0 25px ;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+   
+}
+.b1,.b2,.addplus:hover{
+    cursor: pointer;
+}
+
+#div-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 15vw;
+    height: 45vh;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.line{
+    margin: 0px;
+}
+.addplus{
+    color: blue;
+    position: relative;
+    top: 30vh;
+    left: 5vw;
+
+}
+.trash{
+    position: relative;
+    top: 30vh;
+    left: 1vw;
+    color: red;
+}
+.pTask {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.scratch{
+    color: red;
+}
+.me{
+    color: black;
+    text-decoration-line: line-through;
+}
+.tick{
+    color: red;
+    margin-left: 5px;
+    background-color: beige;
+    border-radius: 5px solid red;
+    text-decoration-line: none;
+}
+
+
+
